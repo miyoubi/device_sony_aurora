@@ -1,5 +1,5 @@
-# Device Tree for Xperia XZ2 Premium (aurora)
-The Xperia (codenamed _"aurora"_) is a smartphone from Sony Mobile.
+# Device Tree for Xperia XZ2 Premium (aurora-kddi)
+The Xperia (codenamed _"aurora-kddi"_) is a smartphone from Sony Mobile.
 It was released in 2018.
 
 | Basic                   | Spec Sheet                                                                                                                                    |

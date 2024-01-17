@@ -26,7 +26,7 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Inherit from tama-common
-$(call inherit-product, device/sony/tama-common/common.mk)
+$(call inherit-product, device/sony/tama-common-kddi/common.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \

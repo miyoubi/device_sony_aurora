@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=aurora
+export DEVICE=aurora_kddi
 export DEVICE_COMMON=tama-common
 export VENDOR=sony
 

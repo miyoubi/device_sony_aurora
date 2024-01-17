@@ -4,14 +4,14 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from aurora device
-$(call inherit-product, device/sony/aurora/device.mk)
+# Inherit from aurora_kddi device
+$(call inherit-product, device/sony/aurora_kddi/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_aurora
-PRODUCT_DEVICE := aurora
+PRODUCT_NAME := lineage_aurora_kddi
+PRODUCT_DEVICE := aurora_kddi
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia XZ2 Premium

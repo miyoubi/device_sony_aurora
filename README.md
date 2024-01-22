@@ -1,36 +1,25 @@
-# Device Tree for Xperia XZ2 Premium (aurora)
-The Xperia (codenamed _"aurora"_) is a smartphone from Sony Mobile.
-It was released in 2018.
+# Device Tree for the Xperia XZ2 Premium
 
-| Basic                   | Spec Sheet                                                                                                                                    |
-| -----------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------- |
-| CPU                     | Octa-core (4x2.7 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)                                                                               |
-| Chipset                 | Qualcomm SDM845 Snapdragon 845                                                                                                                |
-| GPU                     | Adreno 630                                                                                                                                    |
-| Memory                  | 6 GB RAM                                                                                                                                      |
-| Shipped Android Version | 8.0                                                                                                                                           |
-| Storage                 | 64 GB                                                                                                                                         |
-| Battery                 | Non-removable Li-Ion 3540 mAh battery                                                                                                         |
-| Display                 | Toppest LCD, 2160 x 3840 pixels, 16:9 ratio (~765 ppi density)                                                                                |
-| Camera (Back)           | 19 MP (f/1.8, 25mm, 1/2.3", 1.22 µm), gyro EIS, predictive phase detection and laser AF, LED flash, 4K at 30fps, 1080p at 30, 60fps or 960fps |
-|                         | 12 MP (f/1.6, 1/2.3", 1.55 µm), predictive phase detection                                                                                    |
-| Camera (Front)          | 13 MP (f/2.0, 1/3.1"), gyro EIS, 1080p                                                                                                        |
+The Xperia XZ2 Premium (Codenamed "aurora") is a flagship smartphone from Sony released in February 2018.
 
-Copyright 2018 - The LineageOS Project.
+## Device Specifications
 
-![Xperia XZ2 Premium](https://images-na.ssl-images-amazon.com/images/I/61G48YhuWmL._AC_SL1200_.jpg "Xperia XZ2 Premium")
+| Feature                 | Specification                                                                       |
+| :---------------------- | :-----------------------------------------------------------------------------------|
+| Chipset                 | Qualcomm® Snapdragon™ 845 (10 nm)                                                   |
+| CPU                     | Octa-Core (4x 2.7 GHz Kryo 385 Gold & 4x 1.7 GHz Kryo 385 Silver)                   |
+| GPU                     | Adreno 630                                                                          |
+| Memory                  | 6 GB LPDDR4X RAM                                                                    |
+| Shipped Android Version | 8                                                                                   |
+| Storage                 | 64 GB UFS 2.1 (Expandable with Micro SDCard)                                        |
+| SIM                     | Single/Dual SIM (1/2x Nano-SIMs)                                                    |
+| Battery                 | 3180 mAh Li-Po (Non-Removable), 18W Wired Fast Charging, 9W Wireless Fast Charging  |
+| Dimensions              | 158 x 80 x 11.9 mm (6.22 x 3.15 x 0.47 in)                                          |
+| Display                 | 5.8 inch, 3840 x 2160 pixels, TRILUMINOS, X-Reality, P-OLED, HDR10                  |
+| Camera                  | 19 MP (Main), 12 MP (Secondary) 13 MP (Front)                                       |
+| Fingerprint             | Back Side, under the camera (Rear-Mounted)                                          |
+| Sensors                 | Accelerometer, Gyro, Proximity, Barometer, Compass, Color Spectrum                  |
 
+## Device Picture
 
-## Temporary build instructions
-
-```
-# Compiling
-$ m[ake|ka] bootimage systemimage
-
-# Installing
-$ fastboot --disable-verity --disable-verification flash vbmeta stock_vbmeta.img
-$ fastboot flash boot boot.img
-$ fastboot flash system system.img
-$ fastboot -w reboot
-```
-
+![Xperia XZ2 Premium](https://i.imgur.com/kUBwNs9.png)

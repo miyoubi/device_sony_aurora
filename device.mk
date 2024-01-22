@@ -11,6 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, device/sony/tama/common.mk)
 
 # Inherit from vendor_sony_tama
+$(call inherit-product-if-exists, vendor/sony/tama/common/common-vendor.mk)
 $(call inherit-product-if-exists, vendor/sony/tama/aurora/aurora-vendor.mk)
 
 # Boot animation
@@ -24,9 +25,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
-# Inherit from tama-common
-$(call inherit-product, device/sony/tama/common.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
